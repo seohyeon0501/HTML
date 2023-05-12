@@ -1,0 +1,91 @@
+/*문서 전체 글꼴은 맑은 고딕, 바깥여백5px*/
+
+*{
+    font-family: "맑은 고딕";
+    margin: 9px;
+}
+
+/* header, footer 영역- 안쪽 여백20,배경색상,가운데 정렬*/
+
+header, footer {
+    padding: 20px;
+    background-color: aqua;
+    text-align: center;
+}
+
+/*nav영역,배경색,가운데 정렬,글자크기 18, 진하게, 안쪽 여백 20 */
+
+nav{
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*하이퍼링크-밑줄 없음, 가로길이100, 세로 길이 30, 안쪽 여백 20*/
+a{
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    padding: 20px;
+    /*background-color: yellow;*/
+    display: inline-block;
+}
+
+a:link,a:visited{
+    color: black;
+}
+
+a:hover, a:active {
+    color: white;
+    background-color: rgb(130, 225, 238);
+    text-decoration: underline;
+}
+
+/* 배경색상, 테두리, 가로 길이48, 높이 200,가로 정렬*/
+section{
+    background-color: skyblue;
+    border: 3px solid rgb(222, 238, 130);
+    width: 48%;
+    height: 200px;
+    float: left;
+}
+
+/*footer clear 적용*/
+
+footer{
+    clear: both;
+}
+
+/*각 section의 제목 글자 색과 여백 동일*/
+.c1 {
+    color: white;
+    padding: 10px;
+
+}
+
+/* 각 section의 제목의 배경 색상은 각각 다름*/
+#s1 >h1 {
+    background-color: chartreuse;
+}
+
+#s2 >h1 {
+    background-color: blueviolet;
+}
+
+#s3 >h1 {
+    background-color: rgb(255, 0, 255);
+}
+
+#s4 >h1 {
+    background-color: rgb(0, 255, 255);
+}
+
+#s5 >h1 {
+    background-color: rgb(0, 255, 76);
+}
+
+#s6 >h1 {
+    background-color: rgb(0, 162, 255);
+}

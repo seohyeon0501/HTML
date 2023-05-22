@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform 1-백서현</title>
+    <style>
+        .origin {
+            width: 210px;
+            height: 200px;
+            border: 1px solid black;
+            margin: 40px;
+            float: left;
+            -webkit-perspective: 200px;
+            -ms-perspective: 200px;
+            -moz-perspective: 200px;
+            -o-perspective: 200px;
+            transform: 200px;
+        }
+        
+        .rotatex {
+            -webkit-transform:  rotateX(45deg);
+            -ms-transform:  rotateX(45deg);
+            -moz-transform:  rotateX(45deg);
+            -o-transform:  rotateX(45deg);
+            transform: rotateX(45deg);
+        }
+
+        .rotatey {
+            -webkit-transform:  rotateY(20deg);
+            -ms-transform:  rotateY(20deg);
+            -moz-transform:  rotateY(20deg);
+            -o-transform:  rotateY(20deg);
+            transform: rotateY(20deg);
+        }
+        .rotateZ {
+            -webkit-transform:  rotatez(45deg);
+            -ms-transform:  rotatez(45deg);
+            -moz-transform: rotatez(45deg);
+            -o-transform:  rotatez(45deg);
+            transform: rotatez(45deg);
+        }
+
+        .rotateXYZ {
+            -webkit-transform:  rotatexyz(2.5, 1.2, -1.5,45deg);
+            -ms-transform:  rotatexyz(2.5, 1.2, -1.5,45deg);
+            -moz-transform: rotatexyz(2.5, 1.2, -1.5,45deg);
+            -o-transform:  rotatexyz(2.5, 1.2, -1.5,45deg);
+            transform: rotatexyz(2.5, 1.2, -1.5,45deg);
+        }
+        
+
+        
+        
+
+        
+        
+    </style>
+</head>
+<body>
+
+    <div class="origin">
+    <div class="rotate1">
+        <img src="images/fruit.jpg"
+    </div>
+    </div>
+    <div class="origin">
+        <div class="rotate2">
+            <img src="images/fruit.jpg"
+        </div>
+        </div>
+    <div class="origin">
+            <div class="rotatexyz">
+                <img src="images/fruit.jpg"
+            </div>
+            </div>
+    
+    
+
+
+    
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform 1-백서현</title>
+    <style>
+        .origin {
+            width: 210px;
+            height: 200px;
+            border: 1px solid black;
+            margin: 40px;
+            float: left;
+           
+        }
+        
+        .rose {
+            -webkit-transform:  rotatz(10deg);
+            -ms-transform:  rotatz(10deg);
+            -moz-transform: rotatz(10deg);
+            -o-transform:  rotatz(10deg);
+            transform: rotatz(10deg);
+        }
+
+        .ltop {
+            -webkit-transform-origin: left top;
+            -ms-transform-origin: left top;
+            -moz-transform-origin:left top;
+            -o-transform-origin: left top;
+            transform-origin: left top;
+        }
+
+        .rtop .rose {
+            -webkit-transform-origin: right top;
+            -ms-transform-origin: right top;
+            -moz-transform-origin;right top;
+            -o-transform-origin; right top;
+            transform-origin: right top;
+
+        }
+
+        .lbottom .rose {
+            -webkit-transform-origin: left bottom;
+            -ms-transform-origin: left bottom;
+            -moz-transform-origin;left bottom;
+            -o-transform-origin; left bottom;
+            transform: left top;
+
+        }
+
+        .rbottom .rose {
+            -webkit-transform-origin: left bottom;
+            -ms-transform-origin:left bottom;
+            -moz-transform-origin:left bottom;
+            -o-transform-origin: left bottom;
+            transform-origin: left bottom;
+
+        }
+
+        
+            
+        
+        
+
+       
+        
+
+        
+        
+
+        
+        
+    </style>
+</head>
+<body>
+
+    <div class="origin">
+    <div class="rtop">
+        <img src="images/rose.jpg" class="rose">
+    </div>
+    </div>
+    <div class="origin">
+        <div class="ltop">
+            <img src="images/rose.jpg"class="rose">
+        </div>
+        </div>
+    <div class="origin">
+            <div class="rbottom">
+                <img src="images/rose.jpg"class="rose">
+            </div>
+            </div>
+    
+    <div class="origin">
+                <div class="lbottom">
+                    <img src="images/rose.jpg"class="rose">
+                </div>
+                
+    
+    
+
+
+    
+</body>
+</html>
